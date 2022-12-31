@@ -34,7 +34,7 @@ const Card = ({ title, description, btnText }) => {
       <ArrowLink
         as={ButtonLink}
         className={styles.btn}
-        href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
+        href={link}
       >
         {btnText}
       </ArrowLink>
@@ -47,7 +47,7 @@ const data = [
     title: 'Education',
     description:
       'We provide FREE hands-on training in various fields of computer science and have an inclusive community focussing on a learn by doing approach.',
-    link: 'https://github.com/WeMakeDevs/roadmaps',
+    link: 'https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3',
     btnText: 'View Courses',
   },
   {
@@ -61,7 +61,7 @@ const data = [
     title: 'Mentorship',
     description:
       'We provide FREE hands-on training in various fields of computer science and have an inclusive community focussing on a learn by doing approach.',
-    link: '/#mentorship',
+    link: 'https://github.com/WeMakeDevs/roadmaps',
     btnText: 'View Roadmaps',
   },
 ];
