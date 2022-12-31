@@ -25,7 +25,7 @@ const cards = ({ background = 'static' }) => {
 
 export default cards;
 
-const Card = ({ title, description, btnText }) => {
+const Card = ({ title, link, description, btnText }) => {
   return (
     <div className={styles.card} key={title}>
       <h2 className='h1'> {title} </h2>
